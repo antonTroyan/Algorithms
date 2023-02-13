@@ -25,9 +25,12 @@ class FirstBadVersionTest {
 
     @Test
     void firstBadVersion() {
+        final int limit = 100;
         final FirstBadVersion firstBadVersion = new FirstBadVersion();
         firstBadVersion.setBadVersion(4);
-        System.out.println(firstBadVersion.firstBadVersion(100));
-        Assert.isTrue(firstBadVersion.firstBadVersion(100) == 4, "");
+        Assert.isTrue(firstBadVersion.firstBadVersion(limit) == 4, "");
+
+        firstBadVersion.setBadVersion(50);
+        Assert.isTrue(firstBadVersion.firstBadVersion(limit) == 50, "");
     }
 }

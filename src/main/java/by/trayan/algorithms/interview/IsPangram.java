@@ -5,39 +5,32 @@ import java.util.List;
 /**
  * Meaning of pangram in English. a sentence that contains every letter of the alphabet, if possible with
  * each letter only being used once: A familiar example of a pangram, though with duplications, is the
- * typists' test sentence: The quick brown fox jumps over the lazy dog.
-
- * example: Pack my box with five dozen liquor jugs.
+ * typists' test sentence: the quick brown fox jumps over the lazy dog.
+ * <p>
+ * example: pack my box with five dozen liquor jugs.
  */
 
 public class IsPangram {
 
-    // contains all letters - a-z
-    public static String isPangram(List<String> pangram) {
-        final StringBuilder result = new StringBuilder();
+    // small letters only
+    public static boolean isPangram(String pangram) {
+        final boolean[] alphaList = new boolean[26];
+        int index = 0;
 
-        for (String element : pangram) {
-            boolean[] alphaList = new boolean[26];
-            int index = 0;
-            int flag = 1;
-            for (int i = 0; i < element.length(); i++) {
-                if (element.charAt(i) >= 'a' && element.charAt(i) <= 'z') {
-                    index = element.charAt(i) - 'a';
-                }
-                alphaList[index] = true;
+        for (int i = 0; i < pangram.length(); i++) {
+            if (pangram.charAt(i) >= 'a' && pangram.charAt(i) <= 'z') {
+                index = pangram.charAt(i) - 'a';
             }
-            for (int i = 0; i <= 25; i++) {
-                if (!alphaList[i]) {
-                    flag = 0;
-                    break;
-                }
-            }
-            if (flag == 1) result.append("1");
-            else result.append("0");
+            alphaList[index] = true;
         }
-        return String.valueOf(result);
-    }
 
+        for (int i = 0; i <= 25; i++) {
+            if (!alphaList[i]) {
+                return false;
+            }
+        }
+        return true;
+    }
 
     public static int gemstones(List<String> rocks) {
         String[] rocksArray = new String[rocks.size()];  // array of rocks

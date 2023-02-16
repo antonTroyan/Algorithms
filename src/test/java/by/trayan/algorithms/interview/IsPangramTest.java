@@ -9,9 +9,10 @@ class IsPangramTest {
 
     @Test
     void isPangram() {
-        final String pangram = "Pack my box with five dozen liquor jugs";
-        final String notPangram = "Pack my box with five dozen liquor jugs";
+        final String pangram = "pack my box with five dozen liquor jugs";
+        final String notPangram = "Test not pangram";
 
-//        Assert.isTrue(IsPangram.isPangram(pangram))
+        Assert.isTrue(IsPangram.isPangram(pangram), "");
+        Assert.isTrue(!IsPangram.isPangram(notPangram), "");
     }
 }

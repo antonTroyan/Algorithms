@@ -3,6 +3,9 @@ package by.trayan.algorithms.interview;
 import org.junit.jupiter.api.Test;
 import org.springframework.util.Assert;
 
+import java.math.BigInteger;
+import java.util.List;
+
 class RevertListTest {
 
     @Test
@@ -38,6 +41,6 @@ class RevertListTest {
         element4.next = element5;
         element5.next = element6;
 
-        Assert.isTrue(RevertList.compareLists(RevertList.reverseList(element1), elementR1),"");
+        Assert.isTrue(RevertList.compareLists(RevertList.reverseList(element1), elementR1), "");
     }
 }

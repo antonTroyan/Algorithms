@@ -1,5 +1,8 @@
 package by.trayan.algorithms.leetcode.chapter1;
 
+import by.trayan.algorithms.Algorithm;
+import org.springframework.stereotype.Component;
+
 /**
  * You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version
  * of your product fails the quality check. Since each version is developed based on the previous version, all the
@@ -18,7 +21,8 @@ package by.trayan.algorithms.leetcode.chapter1;
  * Then 4 is the first bad version.
  */
 
-public class FirstBadVersion {
+@Component
+public class FirstBadVersion implements Algorithm {
 
     private int badVersion;
 

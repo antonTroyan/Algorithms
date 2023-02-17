@@ -1,5 +1,8 @@
 package by.trayan.algorithms.leetcode.chapter1;
 
+import by.trayan.algorithms.Algorithm;
+import org.springframework.stereotype.Component;
+
 /**
  * Given an integer array nums sorted in non-decreasing order, return an array
  * of the squares of each number sorted in non-decreasing order.
@@ -15,7 +18,8 @@ package by.trayan.algorithms.leetcode.chapter1;
  * Output: [4,9,9,49,121]
  */
 
-public class SquaresOfSortedArray {
+@Component
+public class SquaresOfSortedArray implements Algorithm {
 
     public static int[] sortedSquares(int[] numbers) {
         int left = 0;

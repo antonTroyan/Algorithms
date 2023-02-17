@@ -1,5 +1,8 @@
 package by.trayan.algorithms.leetcode.chapter1;
 
+import by.trayan.algorithms.Algorithm;
+import org.springframework.stereotype.Component;
+
 /**
  * Given an integer array nums, move all 0's to the end of it while maintaining the relative
  * order of the non-zero elements.
@@ -11,7 +14,8 @@ package by.trayan.algorithms.leetcode.chapter1;
  * Output: [1,3,12,0,0]
  */
 
-public class MoveZeroes {
+@Component
+public class MoveZeroes implements Algorithm {
 
     public static void moveZeroes(int[] nums) {
         if (nums == null || nums.length == 0) return;

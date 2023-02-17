@@ -1,5 +1,8 @@
 package by.trayan.algorithms.leetcode.chapter1;
 
+import by.trayan.algorithms.Algorithm;
+import org.springframework.stereotype.Component;
+
 /**
  * Input: nums = [1,2,3,4,5,6,7], k = 3
  * Output: [5,6,7,1,2,3,4]
@@ -9,7 +12,8 @@ package by.trayan.algorithms.leetcode.chapter1;
  * rotate 3 steps to the right: [5,6,7,1,2,3,4]
  */
 
-public class RotateArray {
+@Component
+public class RotateArray implements Algorithm {
 
     public static void rotate(int[] nums, int steps) {
         steps %= nums.length;

@@ -1,5 +1,8 @@
 package by.trayan.algorithms.leetcode.chapter1;
 
+import by.trayan.algorithms.Algorithm;
+import org.springframework.stereotype.Component;
+
 import java.util.Arrays;
 
 /**
@@ -11,7 +14,8 @@ import java.util.Arrays;
  * Output: 2
  */
 
-public class SearchInsertPosition {
+@Component
+public class SearchInsertPosition implements Algorithm {
 
     public static int searchInsert(int[] array, int target) {
         int index = Arrays.binarySearch(array, target);

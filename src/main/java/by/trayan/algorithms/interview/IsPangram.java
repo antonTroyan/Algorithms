@@ -1,5 +1,8 @@
 package by.trayan.algorithms.interview;
 
+import by.trayan.algorithms.Algorithm;
+import org.springframework.stereotype.Component;
+
 import java.util.List;
 
 /**
@@ -10,7 +13,8 @@ import java.util.List;
  * example: pack my box with five dozen liquor jugs.
  */
 
-public class IsPangram {
+@Component
+public class IsPangram implements Algorithm {
 
     // small letters only
     public static boolean isPangram(String pangram) {

@@ -1,5 +1,8 @@
 package by.trayan.algorithms.sort;
 
+import by.trayan.algorithms.Algorithm;
+import org.springframework.stereotype.Component;
+
 /**
  * In the best case, the algorithm will divide the list into two equal size sub-lists. So, the first iteration of the
  * full n-sized list needs O(n). Sorting the remaining two sub-lists with n/2 elements takes 2*O(n/2) each.
@@ -13,7 +16,8 @@ package by.trayan.algorithms.sort;
  * On the average QuickSort has O(n log n) complexity, making it suitable for big data volumes.
  */
 
-public class QuickSort {
+@Component
+public class QuickSort implements Algorithm {
 
     public static void quickSort(int[] arr, int begin, int end) {
         if (begin < end) {

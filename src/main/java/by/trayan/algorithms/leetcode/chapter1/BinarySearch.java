@@ -1,6 +1,10 @@
 package by.trayan.algorithms.leetcode.chapter1;
 
-public class BinarySearch {
+import by.trayan.algorithms.Algorithm;
+import org.springframework.stereotype.Component;
+
+@Component
+public class BinarySearch implements Algorithm {
 
     public static int search(int[] nums, int target) {
         if (nums == null || nums.length == 0)

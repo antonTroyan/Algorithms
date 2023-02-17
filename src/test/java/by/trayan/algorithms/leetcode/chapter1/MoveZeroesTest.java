@@ -5,8 +5,6 @@ import org.springframework.util.Assert;
 
 import java.util.Arrays;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class MoveZeroesTest {
 
     @Test

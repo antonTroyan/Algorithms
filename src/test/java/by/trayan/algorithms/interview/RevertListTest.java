@@ -3,9 +3,6 @@ package by.trayan.algorithms.interview;
 import org.junit.jupiter.api.Test;
 import org.springframework.util.Assert;
 
-import java.math.BigInteger;
-import java.util.List;
-
 class RevertListTest {
 
     @Test

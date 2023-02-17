@@ -1,12 +1,8 @@
 package by.trayan.algorithms.interview;
 
-import by.trayan.algorithms.Algorithm;
-import org.springframework.stereotype.Component;
-
 import java.util.Objects;
 
-@Component
-public class RevertList implements Algorithm {
+public class RevertList {
 
     static void showAll(final ListNode node) {
         ListNode current = node;

@@ -1,8 +1,5 @@
 package by.trayan.algorithms.leetcode.chapter1;
 
-import by.trayan.algorithms.Algorithm;
-import org.springframework.stereotype.Component;
-
 /**
  * Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers
  * such that they add up to a specific target number. Let these two numbers be numbers[index1]
@@ -17,8 +14,7 @@ import org.springframework.stereotype.Component;
  * Explanation: The sum of 2 and 7 is 9. Therefore, index1 = 0, index2 = 1. We return [0, 1].
  */
 
-@Component
-public class TwoSumII implements Algorithm {
+public class TwoSumII {
 
     //  Since the question said there is EXACTLY one solution and didn't provide any info about when
     //  there is no valid answer, so we can always assume there is one and only one answer, which means

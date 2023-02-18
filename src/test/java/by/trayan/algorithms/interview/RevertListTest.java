@@ -1,5 +1,6 @@
 package by.trayan.algorithms.interview;
 
+import by.trayan.algorithms.ListNode;
 import org.junit.jupiter.api.Test;
 import org.springframework.util.Assert;
 
@@ -9,12 +10,12 @@ class RevertListTest {
     void reverseList() {
 
         // correct order
-        final RevertList.ListNode elementR1 = new RevertList.ListNode(6);
-        final RevertList.ListNode elementR2 = new RevertList.ListNode(5);
-        final RevertList.ListNode elementR3 = new RevertList.ListNode(4);
-        final RevertList.ListNode elementR4 = new RevertList.ListNode(3);
-        final RevertList.ListNode elementR5 = new RevertList.ListNode(2);
-        final RevertList.ListNode elementR6 = new RevertList.ListNode(1);
+        final ListNode elementR1 = new ListNode(6);
+        final ListNode elementR2 = new ListNode(5);
+        final ListNode elementR3 = new ListNode(4);
+        final ListNode elementR4 = new ListNode(3);
+        final ListNode elementR5 = new ListNode(2);
+        final ListNode elementR6 = new ListNode(1);
 
         // init
         elementR1.next = elementR2;
@@ -24,13 +25,12 @@ class RevertListTest {
         elementR5.next = elementR6;
 
         // correct order
-        final RevertList.ListNode element1 = new RevertList.ListNode(1);
-        final RevertList.ListNode element2 = new RevertList.ListNode(2);
-        final RevertList.ListNode element3 = new RevertList.ListNode(3);
-        final RevertList.ListNode element4 = new RevertList.ListNode(4);
-        final RevertList.ListNode element5 = new RevertList.ListNode(5);
-        final RevertList.ListNode element6 = new RevertList.ListNode(6);
-
+        final ListNode element1 = new ListNode(1);
+        final ListNode element2 = new ListNode(2);
+        final ListNode element3 = new ListNode(3);
+        final ListNode element4 = new ListNode(4);
+        final ListNode element5 = new ListNode(5);
+        final ListNode element6 = new ListNode(6);
         // init
         element1.next = element2;
         element2.next = element3;

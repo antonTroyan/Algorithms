@@ -1,6 +1,6 @@
 package by.trayan.algorithms.interview;
 
-import java.util.Objects;
+import by.trayan.algorithms.ListNode;
 
 public class RevertList {
 
@@ -16,7 +16,7 @@ public class RevertList {
         ListNode current1 = node1;
         ListNode current2 = node2;
         while (current1 != null || current2 != null) {
-            if (!current1.equals(current2))
+            if (current1.val != current2.val)
                 return false;
             else {
                 current1 = current1.next;
@@ -25,30 +25,6 @@ public class RevertList {
         }
         return true;
     }
-
-    // Definition for singly-linked list.
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) return true;
-            if (o == null || getClass() != o.getClass()) return false;
-            ListNode listNode = (ListNode) o;
-            return val == listNode.val && Objects.equals(next, listNode.next);
-        }
-
-        @Override
-        public int hashCode() {
-            return Objects.hash(val);
-        }
-    }
-
 
     public static ListNode reverseList(ListNode head) {
 

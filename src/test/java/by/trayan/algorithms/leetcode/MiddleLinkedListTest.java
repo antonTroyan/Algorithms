@@ -1,6 +1,7 @@
-package by.trayan.algorithms.leetcode.chapter1;
+package by.trayan.algorithms.leetcode;
 
 import by.trayan.algorithms.ListNode;
+import by.trayan.algorithms.leetcode.two_pointers.MiddleLinkedList;
 import org.junit.jupiter.api.Test;
 import org.springframework.util.Assert;
 

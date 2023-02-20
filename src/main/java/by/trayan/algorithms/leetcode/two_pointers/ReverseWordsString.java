@@ -1,4 +1,4 @@
-package by.trayan.algorithms.leetcode.chapter1;
+package by.trayan.algorithms.leetcode.two_pointers;
 
 /**
  * Given a string s, reverse the order of characters in each word within a sentence while

@@ -1,9 +1,8 @@
-package by.trayan.algorithms.leetcode.chapter1;
+package by.trayan.algorithms.leetcode;
 
+import by.trayan.algorithms.leetcode.binary_search.SearchInsertPosition;
 import org.junit.jupiter.api.Test;
 import org.springframework.util.Assert;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class SearchInsertPositionTest {
 

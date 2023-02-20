@@ -1,4 +1,4 @@
-package by.trayan.algorithms.leetcode.chapter1;
+package by.trayan.algorithms.leetcode.two_pointers;
 
 /**
  * Input: nums = [1,2,3,4,5,6,7], k = 3

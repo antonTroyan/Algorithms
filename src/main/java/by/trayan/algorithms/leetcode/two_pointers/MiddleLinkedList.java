@@ -1,4 +1,4 @@
-package by.trayan.algorithms.leetcode.chapter1;
+package by.trayan.algorithms.leetcode.two_pointers;
 
 import by.trayan.algorithms.ListNode;
 

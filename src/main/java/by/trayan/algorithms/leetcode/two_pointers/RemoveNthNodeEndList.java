@@ -1,4 +1,4 @@
-package by.trayan.algorithms.leetcode.chapter1;
+package by.trayan.algorithms.leetcode.two_pointers;
 
 import by.trayan.algorithms.ListNode;
 
@@ -12,7 +12,7 @@ public class RemoveNthNodeEndList {
 
     public static ListNode removeNthFromEnd(ListNode head, int n) {
 
-        ListNode start = new ListNode(0);
+        final ListNode start = new ListNode(0);
         ListNode slow = start, fast = start;
         slow.next = head;
 

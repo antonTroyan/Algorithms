@@ -1,4 +1,4 @@
-package by.trayan.algorithms.leetcode.chapter1;
+package by.trayan.algorithms.leetcode.two_pointers;
 
 /**
  * Given an integer array nums, move all 0's to the end of it while maintaining the relative

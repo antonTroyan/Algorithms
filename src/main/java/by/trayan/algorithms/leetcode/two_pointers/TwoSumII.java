@@ -1,4 +1,4 @@
-package by.trayan.algorithms.leetcode.chapter1;
+package by.trayan.algorithms.leetcode.two_pointers;
 
 /**
  * Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers

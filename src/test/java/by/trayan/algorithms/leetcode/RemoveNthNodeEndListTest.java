@@ -1,12 +1,9 @@
-package by.trayan.algorithms.leetcode.chapter1;
+package by.trayan.algorithms.leetcode;
 
 import by.trayan.algorithms.ListNode;
+import by.trayan.algorithms.leetcode.two_pointers.RemoveNthNodeEndList;
 import org.junit.jupiter.api.Test;
 import org.springframework.util.Assert;
-
-import java.util.Arrays;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class RemoveNthNodeEndListTest {
 

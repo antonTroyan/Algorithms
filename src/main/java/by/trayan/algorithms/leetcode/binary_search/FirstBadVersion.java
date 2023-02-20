@@ -1,4 +1,4 @@
-package by.trayan.algorithms.leetcode.chapter1;
+package by.trayan.algorithms.leetcode.binary_search;
 
 /**
  * You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version

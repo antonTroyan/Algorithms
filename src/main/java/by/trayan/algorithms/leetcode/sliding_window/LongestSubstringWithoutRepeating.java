@@ -28,9 +28,7 @@ public class LongestSubstringWithoutRepeating {
             if (!set.contains(s.charAt(mainPointer))) {
                 set.add(s.charAt(mainPointer++));
                 max = Math.max(max, set.size());
-            } else {
-                set.remove(s.charAt(slowPointer++));
-            }
+            } else set.remove(s.charAt(slowPointer++));
         }
         return max;
     }

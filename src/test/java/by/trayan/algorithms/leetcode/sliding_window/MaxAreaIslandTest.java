@@ -20,7 +20,6 @@ class MaxAreaIslandTest {
                 {0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0}
         };
         final int output = 6;
-
-        Assert.isTrue(MaxAreaIsland.maxAreaOfIsland(input) == 6,"");
+        Assert.isTrue(MaxAreaIsland.maxAreaOfIsland(input) == output,"");
     }
 }

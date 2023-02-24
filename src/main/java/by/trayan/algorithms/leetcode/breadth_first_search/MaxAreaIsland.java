@@ -1,4 +1,4 @@
-package by.trayan.algorithms.leetcode.sliding_window;
+package by.trayan.algorithms.leetcode.breadth_first_search;
 
 /**
  * You are given an m x n binary matrix grid. An island is a group of 1's (representing land)

@@ -1,4 +1,4 @@
-package by.trayan.algorithms.leetcode.sliding_window;
+package by.trayan.algorithms.leetcode.breadth_first_search;
 
 /**
  * An image is represented by an m x n integer grid image where image[i][j] represents the pixel value of the image.

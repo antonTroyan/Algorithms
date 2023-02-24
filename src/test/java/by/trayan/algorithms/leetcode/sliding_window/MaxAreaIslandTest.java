@@ -1,9 +1,8 @@
 package by.trayan.algorithms.leetcode.sliding_window;
 
+import by.trayan.algorithms.leetcode.breadth_first_search.MaxAreaIsland;
 import org.junit.jupiter.api.Test;
 import org.springframework.util.Assert;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class MaxAreaIslandTest {
 

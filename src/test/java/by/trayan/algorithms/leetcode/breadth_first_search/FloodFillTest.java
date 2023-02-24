@@ -1,6 +1,5 @@
-package by.trayan.algorithms.leetcode.sliding_window;
+package by.trayan.algorithms.leetcode.breadth_first_search;
 
-import by.trayan.algorithms.leetcode.breadth_first_search.FloodFill;
 import org.junit.jupiter.api.Test;
 import org.springframework.util.Assert;
 

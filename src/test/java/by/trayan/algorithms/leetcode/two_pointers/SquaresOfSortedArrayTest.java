@@ -1,4 +1,4 @@
-package by.trayan.algorithms.leetcode;
+package by.trayan.algorithms.leetcode.two_pointers;
 
 import by.trayan.algorithms.leetcode.two_pointers.SquaresOfSortedArray;
 import org.junit.jupiter.api.Test;

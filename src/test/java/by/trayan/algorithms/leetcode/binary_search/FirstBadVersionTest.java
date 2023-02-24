@@ -1,4 +1,4 @@
-package by.trayan.algorithms.leetcode;
+package by.trayan.algorithms.leetcode.binary_search;
 
 import by.trayan.algorithms.leetcode.binary_search.FirstBadVersion;
 import org.junit.jupiter.api.Test;

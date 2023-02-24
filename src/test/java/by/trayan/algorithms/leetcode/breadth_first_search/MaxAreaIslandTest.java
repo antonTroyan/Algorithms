@@ -1,4 +1,4 @@
-package by.trayan.algorithms.leetcode.sliding_window;
+package by.trayan.algorithms.leetcode.breadth_first_search;
 
 import by.trayan.algorithms.leetcode.breadth_first_search.MaxAreaIsland;
 import org.junit.jupiter.api.Test;

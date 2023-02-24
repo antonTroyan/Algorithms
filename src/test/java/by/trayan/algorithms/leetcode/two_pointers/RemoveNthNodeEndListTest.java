@@ -1,4 +1,4 @@
-package by.trayan.algorithms.leetcode;
+package by.trayan.algorithms.leetcode.two_pointers;
 
 import by.trayan.algorithms.ListNode;
 import by.trayan.algorithms.leetcode.two_pointers.RemoveNthNodeEndList;
